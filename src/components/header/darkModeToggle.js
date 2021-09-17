@@ -5,7 +5,7 @@ import StyleContext from "../../contexts/StyleContext";
 import "./darkModeToggle.css";
 
 export default function DarkModeToggle() {
-  const { isDark } = useContext(StyleContext);
+  // const { isDark } = useContext(StyleContext);
   const [darkMode, setDarkMode] = useState(true);
   const styleContext = useContext(StyleContext);
 

@@ -2,12 +2,12 @@ import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// import landingPerson from "../../assets/lottie/landingPerson";
+// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import { illustration, greeting } from "../../portfolio";
+import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Terminal from 'terminal-in-react';
 import pseudoFileSystem from 'terminal-in-react-pseudo-file-system-plugin';
@@ -21,7 +21,7 @@ export default function Greeting() {
   }
 
   const handleCommand = (text) => {
-    if (text == 'resume') {
+    if (text === 'resume') {
       setTimeout(() => {
         window.open('https://drive.google.com/file/d/18orEgFCkJYa5cPP3MVNRXC2Rr96U9O49/view', '_blank');
       }, 200);
@@ -29,7 +29,7 @@ export default function Greeting() {
 
     }
 
-    if (text == 'google') {
+    if (text === 'google') {
       setTimeout(() => {
         window.open('https://google.com', '_blank');
       }, 200);
@@ -37,7 +37,7 @@ export default function Greeting() {
       return 'Opening Google!'
     }
 
-    if (text == 'mail') {
+    if (text === 'mail') {
       setTimeout(() => {
         // window.location = ('mailto:someone@yoursite.com?subject=Mail from Our Site', '_blank');
         document.getElementById('MailClick').click();
