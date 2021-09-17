@@ -15,8 +15,8 @@ import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
-import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
+import { StyleProvider } from "../contexts/StyleContext";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
@@ -29,21 +29,21 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
         <Header />
         <Greeting />
-        <Skills />
-        <StackProgress />
-        <WorkExperience />
-        <Projects />
-        <StartupProject />
-        <Education />
-        <Achievement />
-        <Blogs />
-        <Talks />
-        <Twitter />
-        <Podcast />
-        <Profile />
+        {/* <Skills /> */}
+        {/* <StackProgress /> */}
+        {/* <WorkExperience /> */}
+        {/* <Projects /> */}
+        {/* <StartupProject /> */}
+        {/* <Education /> */}
+        {/* <Achievement /> */}
+        {/* <Blogs /> */}
+        {/* <Talks /> */}
+        {/* <Twitter /> */}
+        {/* <Podcast /> */}
+        {/* <Profile /> */}
         <Footer />
         <Top />
       </StyleProvider>

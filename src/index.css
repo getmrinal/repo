@@ -1,9 +1,26 @@
+
+@font-face {
+  font-family: "AmaticSC-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("AmaticSC-Bold"),
+    url("./assets/fonts/AmaticSC-Bold.ttf") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AmaticSC-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("AmaticSC-Regular"),
+    url("./assets/fonts/AmaticSC-Regular.ttf") format("woff");
+  font-display: swap;
+}
 @font-face {
   font-family: "Agustina Regular";
   font-style: normal;
   font-weight: normal;
   src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+    url("./assets/fonts/NothingYouCouldDo-Regular.ttf") format("woff");
   font-display: swap;
 }
 @font-face {

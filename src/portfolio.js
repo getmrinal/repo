@@ -11,10 +11,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Mrinal Chandra",
-  title: "Hi all, I'm Mrinal",
+  username: "#switchtocode",
+  title: "Mrinal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Flutter / Reactjs / Ruby on Rails  and some other cool libraries and frameworks."
+    "Solving Everyday problems, one commit at a time."
   ),
   resumeLink:
     "https://drive.google.com/file/d/18orEgFCkJYa5cPP3MVNRXC2Rr96U9O49/view?usp=sharing",
@@ -35,8 +35,8 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "I code | tech | learn",
+  title: "???",
+  subTitle: "??????? ",
   skills: [
     emoji(
       "⚡ Develop highly scalable backend with interactive UI experience"
@@ -186,7 +186,7 @@ const workExperiences = {
       companylogo: require("./assets/images/cn.jpeg"),
       date: "Jun 2018 – Oct 2018",
       descBullets: [
-       "Worked as a Teaching Assistant under Ankush Singhla in the Machine Learning Online Batch.",
+        "Worked as a Teaching Assistant under Ankush Singhla in the Machine Learning Online Batch.",
         "Helped the students there to debug code and also helped in their projects.",
         "It was an interesting 4 months journey of Debugging codes, explaining and getting to see the different approaches(sometimes better ) of the same problem.",
         "Really helped me evolve a lot as a Problem Solver.",
@@ -290,7 +290,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"

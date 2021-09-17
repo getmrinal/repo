@@ -7,8 +7,9 @@
 
 /* header */
 
+
 .dark-menu {
-  background-color: $darkBackground !important;
+  background-color:$darkBackground !important;
   color: $textColorDark;
 }
 
@@ -66,6 +67,16 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: #000000;
+}
+
+.header .logo-name-dark {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+  color: #ffffff;
 }
 
 /* menu */
