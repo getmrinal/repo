@@ -1,6 +1,6 @@
 {
-  "short_name": "Mrinal Portfolio",
-  "name": "Mrinal Portfolio",
+  "short_name": "Mrinal | Software Engineer",
+  "name": "Mrinal | Software Engineer",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#6c63ff",
+  "theme_color": "#E9C46A",
   "background_color": "#ffffff"
 }
